@@ -1,0 +1,44 @@
+
+---
+
+## 📄 `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Сборки / кэш
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Логи
+*.log
+
+# Патчи: игнорим случайные, но НЕ игнорим patches/
+*.patch
+!patches/
+!patches/*.patch
